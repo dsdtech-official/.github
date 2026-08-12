@@ -32,7 +32,7 @@ More repositories will appear here as they are prepared.
 
 ## Buy
 
-<https://www.deshide.com> · Amazon US · AliExpress
+<https://www.deshide.com> · Amazon in the US, UK, Europe, Japan, Australia and the Middle East
 
 ## Contact
 
