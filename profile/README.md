@@ -24,7 +24,12 @@ reply in order instead of guessing.
 Written as the companion software for our diDatatracker protocol analyser, and tied to
 nothing: the terminal works with any serial port, monitoring with any two.
 
-**.NET and Avalonia** · **Apache-2.0** · Windows and macOS · interface in nine languages
+**.NET and Avalonia** · **Apache-2.0** · Windows and macOS
+
+The interface is available in nine languages — English · 简体中文 · 日本語 · Français ·
+Deutsch · Español · Italiano · Português · 繁體中文 — and the first launch follows the
+operating system's language. Two regional notes: Portuguese is European rather than
+Brazilian, and Traditional Chinese uses Taiwanese terminology.
 
 ---
 
