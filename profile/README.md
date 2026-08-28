@@ -24,7 +24,7 @@ reply in order instead of guessing.
 Written as the companion software for our diDatatracker protocol analyser, and tied to
 nothing: the terminal works with any serial port, monitoring with any two.
 
-**.NET and Avalonia** · **Apache-2.0** · Windows, and macOS on the **Mac App Store**
+**.NET and Avalonia** · **Apache-2.0** · Windows · macOS 12 or later on Apple Silicon, from the [**Mac App Store**](https://apps.apple.com/app/id6802570917)
 
 The interface is available in nine languages — English · 简体中文 · 日本語 · Français ·
 Deutsch · Español · Italiano · Português · 繁體中文 — and the first launch follows the
