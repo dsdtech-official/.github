@@ -24,12 +24,35 @@ reply in order instead of guessing.
 Written as the companion software for our diDatatracker protocol analyser, and tied to
 nothing: the terminal works with any serial port, monitoring with any two.
 
-**.NET and Avalonia** · **Apache-2.0** · Windows and macOS
+**.NET and Avalonia** · **Apache-2.0** · Windows, and macOS on the **Mac App Store**
 
 The interface is available in nine languages — English · 简体中文 · 日本語 · Français ·
 Deutsch · Español · Italiano · Português · 繁體中文 — and the first launch follows the
 operating system's language. Two regional notes: Portuguese is European rather than
 Brazilian, and Traditional Chinese uses Taiwanese terminology.
+
+---
+
+## Hardware
+
+### [can-adapters](https://github.com/dsdtech-official/can-adapters)
+
+Everything that ships with our USB-to-CAN adapters, one folder per model: the manual, the
+schematic and board files, the firmware and how to flash it, and example code you can run.
+
+| Model | Bus | |
+|---|---|---|
+| [**SH-C30A**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C30A) | CAN 2.0A / 2.0B | STM32F072, non-isolated |
+| [**SH-C31A**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C31A) | **CAN FD** | STM32G431, non-isolated. CAN FD works on the firmware it ships with, measured to 5 Mbit/s |
+
+Design files are published in the format the boards are actually edited in, with a
+schematic PDF alongside for reading without an EDA tool.
+**CERN-OHL-S-2.0** for the hardware · **CC-BY-SA-4.0** for the documentation ·
+**BSD-3-Clause** for the examples · **MIT** for the firmware images.
+
+**Firmware downloads** are on each model's firmware page —
+[SH-C30A](https://github.com/dsdtech-official/can-adapters/blob/main/SH-C30A/firmware/README.md#download)
+· [SH-C31A](https://github.com/dsdtech-official/can-adapters/blob/main/SH-C31A/firmware/README.md#download)
 
 ---
 
