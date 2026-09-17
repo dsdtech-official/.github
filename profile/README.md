@@ -53,6 +53,7 @@ schematic and board files, the firmware and how to flash it, and example code yo
 | [**SH-C30G**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C30G) | CAN 2.0A / 2.0B | STM32F072, **galvanically isolated** — signal and power both |
 | [**SH-C30L**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C30L) | CAN 2.0A / 2.0B | STM32F072, non-isolated. USB-A plug on a lead, 19 mm shorter board |
 | [**SH-C31A**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C31A) | **CAN FD** | STM32G431, non-isolated. CAN FD works on the firmware it ships with, measured to 5 Mbit/s |
+| [**SH-C31B**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C31B) | **CAN FD** | The same board as the SH-C31A, shipped with **serial-port (slcan) firmware** instead of gs_usb |
 | [**SH-C31G**](https://github.com/dsdtech-official/can-adapters/tree/main/SH-C31G) | **CAN FD** | STM32G431, **galvanically isolated** — signal and power both |
 
 Design files are published in the format the boards are actually edited in, with a
@@ -60,10 +61,14 @@ schematic PDF alongside for reading without an EDA tool.
 **CERN-OHL-S-2.0** for the hardware · **CC-BY-SA-4.0** for the documentation ·
 **BSD-3-Clause** for the examples · **MIT** for the firmware images.
 
-**Firmware downloads** are on each model's firmware page. **Two builds cover all five
-models** — one for the SH-C30x boards
+**Firmware downloads** are on each model's firmware page. **Two builds of our own cover the
+five gs_usb models** — one for the SH-C30x boards
 ([download](https://github.com/dsdtech-official/can-adapters/blob/main/SH-C30A/firmware/README.md#download)), one for the SH-C31x boards
 ([download](https://github.com/dsdtech-official/can-adapters/blob/main/SH-C31A/firmware/README.md#download)).
+
+**The SH-C31B is the exception:** it leaves the factory running **ElmueSoft's Slcan 2.5**,
+a third-party build under the MIT licence, which turns the adapter into a serial port
+instead → [other firmware](https://github.com/dsdtech-official/can-adapters/blob/main/docs/other-firmware.md).
 
 ---
 
