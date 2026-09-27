@@ -38,6 +38,27 @@ Deutsch · Español · Italiano · Português · 繁體中文 — and the first 
 operating system's language. Two regional notes: Portuguese is European rather than
 Brazilian, and Traditional Chinese uses Taiwanese terminology.
 
+### [diCAN](https://github.com/dsdtech-official/diCAN)
+
+A free and open-source **CAN analyser for Windows and macOS**. Inspect traffic in a table
+grouped by CAN ID or as individual frames, send frames once or periodically, record sessions
+locally, and export them as CSV or PEAK `.trc` files.
+
+Developed for our **DSD TECH SH-C3x adapters**, with support for standard CANable and compatible
+adapters running Elmue Multiboard 2.5 firmware. **CAN FD and bit-rate switching depend on the
+adapter's firmware**; diCAN offers the capabilities the connected adapter reports.
+
+**.NET and Avalonia** · **Apache-2.0** · **Nine interface languages**
+
+**Windows** — available now from the
+[**Microsoft Store**](https://apps.microsoft.com/detail/9N16CGHG2L72).
+**macOS** — the Mac App Store submission is under review; the store link will be added when
+it becomes available.
+
+diCAN makes no network connections. Settings, recordings and diagnostic logs stay on your
+computer. See the [diCAN page](https://github.com/dsdtech-official/diCAN) for supported adapters,
+getting started, source builds and the privacy policy.
+
 ---
 
 ## Hardware
@@ -80,5 +101,5 @@ More repositories will appear here as they are prepared.
 
 ## Contact
 
-Issues and pull requests are welcome on any repository.
+For bug reports and contributions, follow the guidance in each repository.
 For sales, warranty and returns: <https://www.deshide.com>
