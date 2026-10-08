@@ -34,9 +34,7 @@ each build needs, are on the
 [diSerial page](https://github.com/dsdtech-official/diSerial).
 
 The interface is available in nine languages — English · 简体中文 · 日本語 · Français ·
-Deutsch · Español · Italiano · Português · 繁體中文 — and the first launch follows the
-operating system's language. Two regional notes: Portuguese is European rather than
-Brazilian, and Traditional Chinese uses Taiwanese terminology.
+Deutsch · Español · Italiano · Português · 繁體中文.
 
 ### [diCAN](https://github.com/dsdtech-official/diCAN)
 
@@ -48,12 +46,16 @@ Developed for our **DSD TECH SH-C3x adapters**, with support for standard CANabl
 adapters running Elmue Multiboard 2.5 firmware. **CAN FD and bit-rate switching depend on the
 adapter's firmware**; diCAN offers the capabilities the connected adapter reports.
 
-**.NET and Avalonia** · **Apache-2.0** · **Nine interface languages**
+**.NET and Avalonia** · **Apache-2.0**
+
+The interface is available in nine languages — English · 简体中文 · 日本語 · Français ·
+Deutsch · Español · Italiano · Português · 繁體中文.
 
 **Windows** — available now from the
 [**Microsoft Store**](https://apps.microsoft.com/detail/9N16CGHG2L72).
-**macOS** — the Mac App Store submission is under review; the store link will be added when
-it becomes available.
+**macOS** — available from the
+[**Mac App Store**](https://apps.apple.com/us/app/dican/id6815654112)
+for Apple silicon (M-series), macOS 12 or later.
 
 diCAN makes no network connections. Settings, recordings and diagnostic logs stay on your
 computer. See the [diCAN page](https://github.com/dsdtech-official/diCAN) for supported adapters,
